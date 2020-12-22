@@ -419,6 +419,7 @@ class plastex2xhtml(object):
                            'edXsolution',
                            'edXshowhide',
                            'document',
+                           'mydefinition',
                            ]
 
         newstring = []

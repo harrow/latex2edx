@@ -10,6 +10,9 @@ name: edXsection edXsection*
 name: edXvertical edXvertical*
 <vertical tal:attributes='display_name self/attributes/display_name; attrib_string string:${self/attributes/attrib_string}; refnum self/position' tal:content='self'></vertical>
 
+name: mydefinition
+<div class="hx-bluebox2" tal:content='self'></div>
+
 name: edXsequential edXsequential*
 <sequential tal:attributes='display_name self/attributes/display_name; attrib_string string:${self/attributes/attrib_string}; refnum self/position' tal:content='self'></sequential>
 

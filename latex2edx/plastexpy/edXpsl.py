@@ -100,6 +100,8 @@ class edXvertical(EdXverticalStar):
         self.position = self.ownerDocument.context.counters[self.counter].value + 1
         return MyBaseEnvironment.invoke(self, tex)
 
+class mydefinition(MyBaseEnvironment):
+    args = 'self'
 
 class edXconditional(MyBaseEnvironment):
     macroName = 'edXconditional'
